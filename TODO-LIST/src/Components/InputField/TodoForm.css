@@ -1,0 +1,7 @@
+.todo-form :is(input , button) {
+  font-size: 1.25rem;
+  padding: .4rem .5rem;
+  outline: none;
+  border-width: 0 ;
+  border-radius: 3px;
+}

@@ -1,0 +1,163 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  background-color: #fff;
+
+} 
+*{
+  box-sizing: border-box;
+}
+h2{
+  text-align: center;
+  position: relative;
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  /* background-color: blue; */
+ margin-top: 0;
+ margin-bottom: 0;
+}
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0,0.25);
+  width: 100vw;
+  margin: 2rem auto;
+  position: relative;
+  padding: 2rem 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .card {
+  width: 60%;
+  }
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  width: 80%;
+  border-radius: .4em;
+  /* min-height: 400px; */
+  padding: 20px;
+  background-color: rgb(225, 228, 232);
+
+}
+
+
+.remove-button{
+  border: 0.5px solid #999;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 3px;
+  color: #fff;
+
+  background-color: rgb(239, 44, 44);
+
+}
+
+.todo-button{
+  background-color: blue;
+  border: 0.5px solid #999;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 3px;
+  color: #fff;
+}
+
+.todo-form :is(input , button) {
+  font-size: 1.25rem;
+  padding: .4rem .5rem;
+  outline: none;
+  border-width: 0 ;
+  border-radius: 3px;
+}
+
+.todo-item .desc {
+  display: flex;
+  flex-direction: column;
+  gap: .1rem;
+}
+
+.desc:last-child {
+  font-size: .9rem;
+  color: #575757;
+}
+
+.todo-form {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+
+
+}
+.todo-descripton{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .5rem;
+  width: 100%;
+}
+
+.todoText{
+  font-weight: 550;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.todoDate{
+  font-size: .5rem;
+
+
+}
+/* .ml-l{ 
+  marigin-left: 10px;
+
+}
+
+form{
+  display: flex;
+  width: 100%;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+form input{
+  width: 85%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+
+}
+
+::placeholder{
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+} 
+.card{
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0,0.25);
+}
+.wrapper{
+  background-color: #999;
+}
+
+form button {
+  background-color: blue;
+  border: 1px solid #999;
+  width: 13%;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 7px;
+}
+.todo-remove-button{
+  background-color: red;
+  border: 1px solid #999;
+  width: 13%;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 7px;
+} */

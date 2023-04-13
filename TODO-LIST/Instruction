@@ -1,0 +1,13 @@
+Congratulations everyone for making it this far! You are about to create your first React app.
+
+=>> Before you start run the command: npm install
+This will install all the necessary packages of React. Otherwise you application can't be rendered!
+
+
+For this project you are expected to:
+1. Create components and export them
+2. Import necessary styles
+3. Importing necessary components on where they are required.
+4. Create instance of them
+5. Styling your components as provided on the Final Look.jpg Image
+
